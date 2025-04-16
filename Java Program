@@ -1,0 +1,30 @@
+package Besant.com;
+import java.util.Scanner;
+
+public class Employee {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		Scanner scan1=new Scanner(System.in);
+		
+		System.out.println("Enter Name");
+		String name=scan.nextLine();
+		
+		System.out.println("Enter Employee ID");
+		int id=scan.nextInt();
+		
+		System.out.println("Enter Country");
+		String country=scan1.nextLine();
+		
+		System.out.println("Enter Salary");
+		float salary=scan.nextFloat();
+		
+		System.out.println();
+		System.out.println("Name :"+name);
+		System.out.println("ID :"+id);
+		System.out.println("Country :"+country);
+		System.out.println("Salary :"+salary);
+
+	}
+
+}
